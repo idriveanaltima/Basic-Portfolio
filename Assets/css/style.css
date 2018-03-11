@@ -1,0 +1,79 @@
+body {
+  font-size: 24px;
+  height: 100%;
+}
+
+header {
+  height: 30%;  
+  background-color: white;
+  width: 100%;
+  clear: both;
+  overflow: auto;
+  border-bottom: 2px solid gray;
+}
+
+nav {
+  background-color: white;
+  width: 25%;
+  height: 100%;
+  float: right;
+  margin-right: 15%;
+  font-size: 20px;
+  padding-top: 1%;
+}
+
+.adjust {
+  padding: 5%;
+}
+#name {
+  background-color: blue;
+  float: left;
+  height: 100%;
+  width: 12%;
+  text-align: center;
+  margin-left: 20%;
+  padding-top: 1%;
+  overflow: none;
+  opacity: .55;
+}
+
+.container {
+  background: url(../images/snow.png) whitesmoke;
+  padding: 2% 5%;
+  height: 75%;
+}
+
+.main {
+  margin: 0% 20% 0% 20%;
+  overflow: auto;
+  background-color: white;
+  padding: 30px;
+}
+
+.mainHeading {
+  border-bottom: 4px solid gray;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 240px;
+  width: 320px;
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+
+p {
+  line-height: 150%;
+}
+
+footer {
+  height: 5%;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  background-color: white;
+  border-top: 8px solid black;
+}
