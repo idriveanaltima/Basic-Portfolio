@@ -15,9 +15,6 @@ body {
   border-bottom: 2px solid #cccccc;
 }
 
-.heading {
-  width: 960px;
-}
 
 #nameBox {
   position: fixed;
@@ -113,55 +110,7 @@ img {
   color: #ffffff;
   font-size: 20px;
 }
-/*
-#bf {
-  background-image: url('../images/bananasfoster.jpg');
-  background-repeat: no-repeat;
-  background-size: 200px  240px;
-}
 
-#be {
-  background-image: url('../images/beignets.jpg');
-  background-repeat: no-repeat;
-  background-size: 200px  240px;
-}
-
-#cw {
-  background-image: url('../images/chickenandwaffles.jpg');
-  background-repeat: no-repeat;
-  background-size: 200px  240px;
-}
-
-#ch {
-  background-image: url('../images/chocorua.jpg');
-  background-repeat: no-repeat;
-  background-size: 200px  240px;
-}
-
-#de {
-  background-image: url('../images/denali.jpg');
-  background-repeat: no-repeat;
-  background-size: 200px  240px;
-}
-
-#lo {
-  background-image: url('../images/lobster.jpg');
-  background-repeat: no-repeat;
-  background-size: 200px  240px;
-}
-
-#tr {
-  background-image: url('../images/tree.jpg');
-  background-repeat: no-repeat;
-  background-size: 200px  240px;
-}
-
-#wa {
-  background-image: url('../images/washington.jpg');
-  background-repeat: no-repeat;
-  background-size: 200px  240px;
-}
-*/
 .grow { 
   transition: all .2s ease-in-out; 
 }
@@ -184,10 +133,13 @@ footer {
   font-size: 16px;
 }
 
-form {
+label {
   color: #dddddd;
 }
 
+textarea {
+  border-color: #dddddd;
+}
 .formInfo {
   margin-top: 25px;
   margin-bottom: 25px;

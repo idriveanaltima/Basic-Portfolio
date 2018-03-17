@@ -11,20 +11,19 @@
 </head>
 
 <body>
-  <div class="heading">
-    <div class="box">
-      <div id="nameBox">
-        <br> James Broadbent
-      </div>
-      <!--Top Navigation menu -->
-      <div id="navBox">
-        <nav>
-          <br>
-          <a class="navItems" href="index.html">About</a> |
-          <a class="navItems" href="portfolio.html">Portfolio</a> |
-          <a class="navItems" href="contact.html">Contact</a>
-        </nav>
-      </div>
+  <!--Nav Header with fixed positioning-->
+  <div class="box">
+    <div id="nameBox">
+      <br> James Broadbent
+    </div>
+    <!--Top Navigation menu -->
+    <div id="navBox">
+      <nav>
+        <br>
+        <a class="navItems" href="index.html">About</a> |
+        <a class="navItems" href="portfolio.html">Portfolio</a> |
+        <a class="navItems" href="contact.html">Contact</a>
+      </nav>
     </div>
   </div>
 
@@ -37,6 +36,7 @@
 
       </div>
 
+      <!--Fan mail-->
       <form>
         <label for="person">Name</label>
         <br>
@@ -46,9 +46,9 @@
         <br>
         <input class="formInfo" type="email" id="email">
         <br>
-        <br> Message
+        <label for="message">Message</label>
         <textarea class="formInfo" id="message">
-          Tell me a story... </textarea>
+        </textarea>
         <br>
         <button type="submit">Submit</button>
         <button type="submit">Reset</button>
