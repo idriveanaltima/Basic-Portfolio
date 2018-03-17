@@ -9,10 +9,14 @@ body {
 .box {
   position: fixed;
   width: 100%;
-  height: 65px;
+  height: 67px;
   top: 0;
-  background-color: #4aaaa5;
-  border-color: 2px solid #cccccc;
+  background-color: #ffffff;
+  border-bottom: 2px solid #cccccc;
+}
+
+.heading {
+  width: 960px;
 }
 
 #nameBox {
@@ -20,27 +24,33 @@ body {
   top: 0;
   text-align: center;
   left: 15%;
-  width: 18%%;
-  height: 65px;
+  width: 18%;
+  height: 67px;
   color: white;
   font-weight: bold;
   font-size: 28px;
+  background-color: #4aaaa5;
 }
 
 nav {
   position: fixed;
   top: 0;
-  right: 18%;
-  width: 35%;
-  height: 65px;
+  right: 12%;
+  width: 35%; 
+  color: #dddddd;
 }
 
 .navItems {
-padding: 5%;
-color: white;
-font-weight: bold;
+padding: 20px;
+font-size: 18px;
+height: 67px;
+color: #dddddd;
+
 }
 
+a:link {
+  text-decoration: none;
+}
 .navItems:hover {
 
   background-color: blue;
@@ -58,24 +68,96 @@ img {
 }
 
 .main {
-  background-color: white;
+  background-color: #ffffff;
   padding: 30px;
   overflow:auto;
+  border: 2px solid #dddddd;
 }
 
 .mainHeading {
-  border-bottom: 4px solid gray;
+  border-bottom: 4px solid #dddddd;
   padding: 15px;
   margin-bottom: 20px;
   font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  font-weight: bolder;
 }
 
 
-.portfolio img, #aboutMe{
+#aboutMe{
   height: 200px;
   width: 200px;
   padding-right: 20px;
   padding-bottom: 15px;
+}
+
+.imgBox {
+  position: relative;
+  width: 240px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.imgText{
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  background-color: #4aaaa5;
+  top: 140px;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#bf {
+  background-image: url('../images/bananasfoster.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px  240px;
+}
+
+#be {
+  background-image: url('../images/beignets.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px  240px;
+}
+
+#cw {
+  background-image: url('../images/chickenandwaffles.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px  240px;
+}
+
+#ch {
+  background-image: url('../images/chocorua.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px  240px;
+}
+
+#de {
+  background-image: url('../images/denali.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px  240px;
+}
+
+#lo {
+  background-image: url('../images/lobster.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px  240px;
+}
+
+#tr {
+  background-image: url('../images/tree.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px  240px;
+}
+
+#wa {
+  background-image: url('../images/washington.jpg');
+  background-repeat: no-repeat;
+  background-size: 200px  240px;
 }
 
 .grow { 
@@ -91,21 +173,32 @@ p {
 footer {
   position: fixed;
   bottom: 0;
-  height: 8%;
+  height: 5%;
   width: 100%;
-  clear: both;
   text-align: center;
   color: white;
   background-color: #666666;
+  border-top: 10px solid #4aaaa5;
+  font-size: 16px;
+}
+
+form {
+  color: #dddddd;
 }
 
 .formInfo {
   margin-top: 25px;
   margin-bottom: 25px;
-
 }
 
 #person, #email {
-  width: 85%;
+  width: 100%;
   height: 35px;
+
+}
+
+#message {
+  width: 100%;
+  height: 150px;
+
 }
